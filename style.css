@@ -109,10 +109,23 @@ section p {
     letter-spacing: -0.18px;
 
 }
-
+/* display: grid;
+    padding: 3em;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+.games-list{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+}
 .games-list img{
     border-radius: 8px;
     width: 90px;
+    
+}
+
+.channel-list{
+    justify-content: space-around;
 }
 .channel-list img {
     border-radius: 50%;
